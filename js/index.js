@@ -8,7 +8,7 @@ $(document).ready(function() {
     $('.error').text(error).removeClass('zoomOutRight').addClass('slideInRight').show();
     setTimeout(function() {
       $('.error').removeClass('slideInRight').addClass('zoomOutRight').text('');
-    }, 2000);
+    }, 3000);
   }
 
   //sends ajax request to wiki api to get results 

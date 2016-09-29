@@ -182,11 +182,12 @@ header h1 {
   top: 10px;
   right: 10px;
   width: 250px;
-  background: #222;
+  background: #ff6a5d;
   padding: 20px 10px;
   color: #fff;
   border-radius: 4px;
   display: none;
+  text-align: center;
 }
 
 footer p {
