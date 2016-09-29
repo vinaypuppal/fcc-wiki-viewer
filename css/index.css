@@ -55,7 +55,7 @@ header h1 {
 }
 
 .search-card {
-  width: 70%;
+  width: 60%;
   padding: 5px 10px;
   padding-left: 40px;
 }
@@ -190,12 +190,29 @@ header h1 {
   text-align: center;
 }
 
+.text-center{
+  text-align: center;
+}
+
 footer p {
   color: #888;
 }
 
 footer p i {
   color: red;
+  text-align: center;
+}
+
+footer a{
+  text-decoration: none;
+  color: #666;
+  font-weight: 600;
+  transition: all 0.25s;
+  cursor: pointer;
+}
+
+footer a:hover{
+  color: #ef4925
 }
 
 .autocomplete-suggestions {
